@@ -1,0 +1,140 @@
+body {
+    font-family: Tahoma;
+    font-size: 17;
+    color: white;
+    background-color: darkslategray;
+}
+a#telega{
+    color: cyan;
+}
+a#github{
+    color: cyan;
+}
+div#info{
+    display: none;
+}
+p#info_txt{
+    text-align: center;
+    font-size: 19;
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+ol#list_info1{
+    width: 170px;
+    border: 1px dashed cadetblue;
+    border-radius: 4px;
+    font-size: large;
+    margin-bottom: 1%;
+}
+ol#list_info{
+    width: 170px;
+    border: 1px dashed cadetblue;
+    border-radius: 4px;
+    font-size: large;
+    margin-bottom: 1%;
+}
+div.menu_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+button#menu_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: darkcyan;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+}
+.header_logo{
+    width: auto;
+    height: auto;
+}
+#divider1{
+    width: auto;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 1%;
+}
+h1#doc, h2#name{
+    text-align: center;
+}
+#divider2{
+    width: auto;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 1%;
+}
+div#portfolio_list1{
+    display: none;
+}
+div.portfolio_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+button#portfolio_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: darkcyan;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+}
+a#lab1{
+    color: white;
+}
+.header_logo{
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+    margin-bottom: 1%;
+}
+/* h1#doc, h2#name{
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+} */
+h2#name{
+    margin-bottom: 1%;
+}
+p#labs_txt{
+    text-align: center;
+    font-size: 19;
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+/* ol#portfolio_list{
+    border: 2px dashed white;
+    border-radius: 2px;
+    width: 400px;
+} */
+.labs_list{
+    font-family: Helvetica;
+    border: 1px dashed cadetblue;
+    border-radius: 2px;
+    width: auto;
+    text-align: center;
+}
