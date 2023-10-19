@@ -19,9 +19,9 @@ def calculator(first_number: float, second_number: float, operator: str):
         answer = first_number * second_number
         return answer
     if operator == "/":
-        answer = first_number / second_number
-        return answer
-    # if second_number == 0:
-    #     return {"ошибка. делить на 0 нельзя"}
+        if second_number != 0:
+            return first_number / second_number
+        if second_number == 0:
+            return {"ошибка. делить на 0 нельзя"}
     else:
         return {"error. Проверьте введенные значения"}
